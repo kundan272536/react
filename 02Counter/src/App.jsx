@@ -10,6 +10,10 @@ let addValue=()=>{
   counter=counter+1;
 
   setCounter(counter);
+  setCounter(prevCounter=>prevCounter+1);
+  setCounter(prevCounter=>prevCounter+1);
+  setCounter(prevCounter=>prevCounter+1);//output will be 14
+
     // return alert("You can not go up to 15")
   }
   console.log("Inside the function counter is ",counter);
